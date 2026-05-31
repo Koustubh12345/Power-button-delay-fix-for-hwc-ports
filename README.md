@@ -26,4 +26,4 @@ Before executing the script, your device **must** meet the following requirement
 Open **Termux**, copy the single command block below, paste it, and press enter. It will automatically update your environment, install the compilation utilities, download the patch, and apply it all in one go:
 
 ```bash
-pkg update -y && pkg upgrade -y && pkg install root-repo -y && pkg install clang patchelf binutils file coreutils grep sed findutils -y && su -c 'curl -sL -o /data/local/tmp/fix_display.sh "[https://raw.githubusercontent.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports/main/fix.sh](https://raw.githubusercontent.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports/main/fix.sh)" && sh /data/local/tmp/fix_display.sh'
+pkg update -y && pkg upgrade -y && pkg install root-repo -y && pkg install clang patchelf binutils file coreutils grep sed findutils -y && su -c 'curl -sL -o /data/local/tmp/fix_display.sh "[https://raw.githubusercontent.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports/main/script.sh](https://raw.githubusercontent.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports/main/script.sh)" && sh /data/local/tmp/fix_display.sh'
