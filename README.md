@@ -25,7 +25,7 @@ Before executing the script, your device **must** meet the following requirement
 Open **Termux**, copy the single command block below, paste it, and press enter. It will automatically update your environment, install the compilation utilities, download the patch, and apply it all in one go:
 
 ```bash
-pkg update -y && pkg upgrade -y && pkg install root-repo -y && pkg install clang patchelf binutils file coreutils grep sed findutils curl -y && curl -sL -o /data/data/com.termux/files/home/script.sh "[https://raw.githubusercontent.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports/main/script.sh](https://raw.githubusercontent.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports/main/script.sh)" && su -c 'sh /data/data/com.termux/files/home/script.sh'
+pkg update -y && pkg upgrade -y && pkg install git root-repo clang patchelf binutils file coreutils grep sed findutils curl -y && rm -rf ~/Power-button-delay-fix-for-hwc-ports && git clone https://github.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports.git ~/Power-button-delay-fix-for-hwc-ports && chmod -R 755 ~/Power-button-delay-fix-for-hwc-ports && cd ~/Power-button-delay-fix-for-hwc-ports && su -c 'sh script.sh'
 ```
 
 Once the setup completes and outputs `=== DONE === REBOOT NOW.`, simply restart your device to enjoy instant screen wake!
