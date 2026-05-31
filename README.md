@@ -7,7 +7,6 @@ A high-performance, universal script designed to completely eliminate the power 
 ## 🔥 Features
 * **Advanced Display Hooking:** Cleanly resolves vendor capability and environment blocking issues by implementing a smart, native system-level fix that integrates directly with your device's architecture.
 * **Instant Wake Response:** Eliminates deep kernel-level stall cycles and timeout loops, bringing device resume and power button responsiveness down to absolute zero.
-* **Framework Optimization:** Permanently cures display backpressure delays and frame-latching hesitation, ensuring smooth, instantaneous power-on transitions.
 * **100% Device Safe & Universal:** Completely automated to match your hardware on the spot. By adapting directly to the active system files on your current device, it guarantees zero compatibility issues and a seamless setup.
 
 ---
