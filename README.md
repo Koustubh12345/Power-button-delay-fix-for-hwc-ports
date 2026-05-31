@@ -16,7 +16,7 @@ A high-performance, universal script designed to completely eliminate the power 
 Before executing the script, your device **must** meet the following requirements:
 
 1. **Root Access:** Fully rooted via **KernelSU** or **Magisk**.
-2. **Termux App:** Installed and explicitly granted Superuser privileges.
+2. **Termux App:** Installed and grant Superuser privileges.
 
 ---
 
