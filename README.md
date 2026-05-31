@@ -1,4 +1,4 @@
-# Universal Hardware Composer (HWC) Display Delay Fix 📱⚡
+# Universal Hardware Composer (HWC) Power Button Delay Fix.
 
 A high-performance, universal script designed to completely eliminate the power button wake delay commonly found on custom Hardware Composer (HWC) vendor ports across Snapdragon devices (such as *sweet*, *SWEET K6A*, *vayu*, etc.).
 
