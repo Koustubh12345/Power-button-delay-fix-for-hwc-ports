@@ -34,7 +34,7 @@ Once the setup completes and outputs `=== DONE === REBOOT NOW.`, simply restart 
 
 ## 💬 Community & Support
 
-Join our Telegram channels for the latest updates, support, and exclusive releases:
+Join our Telegram channels for the latest updates:
 
 * **[TenSei Mods](https://t.me/TenseiMods)** 
 * **[TenSei Channel](https://t.me/GettheFuckoutofhear)** 
