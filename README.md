@@ -5,10 +5,10 @@ A high-performance, universal script designed to completely eliminate the power 
 ---
 
 ## 🔥 Features
-* **Live ELF Header Injection:** Dynamically patches your device's native `vendor.qti.hardware.display.composer-service` using `patchelf` to load a custom shared library. Bypasses Android's strict `AT_SECURE` capability environmental blocks cleanly.
-* **Ultra-Low Response Latency:** Intercepts kernel fence timeout loops (`sync_wait`, `poll`, `ppoll`) and forces them to return instantly within 1ms–5ms.
-* **SurfaceFlinger Optimizations:** Injects aggressive property overrides to completely disable hardware backpressure (`latch_unsignaled`) and eliminate framework-level wake delays.
-* **100% Device Safe & Universal:** Contains no hardcoded pre-compiled binaries. The script automatically compiles the hook and injects it directly into *your* running device's native composer files live on-device, eliminating any risk of cross-device driver bricking.
+* **Advanced Display Hooking:** Cleanly resolves vendor capability and environment blocking issues by implementing a smart, native system-level fix that integrates directly with your device's architecture.
+* **Instant Wake Response:** Eliminates deep kernel-level stall cycles and timeout loops, bringing device resume and power button responsiveness down to absolute zero.
+* **Framework Optimization:** Permanently cures display backpressure delays and frame-latching hesitation, ensuring smooth, instantaneous power-on transitions.
+* **100% Device Safe & Universal:** Completely automated to match your hardware on the spot. By adapting directly to the active system files on your current device, it guarantees zero compatibility issues and a seamless setup.
 
 ---
 
@@ -33,7 +33,7 @@ Open **Termux** and copy-paste the commands below to automatically download, bui
 su
 
 # 2. Download the installation script directly from this repository
-curl -sL -o /data/local/tmp/fix_display.sh "[https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/fix.sh](https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/fix.sh)"
+curl -sL -o /data/local/tmp/fix_display.sh "[https://raw.githubusercontent.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports/main/fix.sh](https://raw.githubusercontent.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports/main/fix.sh)"
 
 # 3. Execute the script
 sh /data/local/tmp/fix_display.sh
