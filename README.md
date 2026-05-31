@@ -41,6 +41,6 @@ Join our Telegram channels for the latest updates, support, and exclusive releas
 
 ---
 
-## 📜 Credits & Branding
+## 📜 Credits
 
-* **Lead Developer:**([TenSei てんせい](https://t.me/getthefckoutofheree))
+* **Developer:**([TenSei てんせい](https://t.me/getthefckoutofheree))
