@@ -1,4 +1,4 @@
-# Universal Hardware Composer (HWC) Power Button Delay Fix.
+# Universal Hardware Composer (HWC) Power Button Delay Fix 📱⚡
 
 A high-performance, universal script designed to completely eliminate the power button wake delay commonly found on custom Hardware Composer (HWC) vendor ports across Snapdragon devices (such as *sweet*, *SWEET K6A*, *vayu*, etc.).
 
@@ -18,18 +18,12 @@ Before executing the script, your device **must** meet the following requirement
 
 1. **Root Access:** Fully rooted via **KernelSU** or **Magisk**.
 2. **Termux App:** Installed and explicitly granted Superuser privileges.
+
 ---
 
 ## 🚀 Installation Instructions
 
-Open **Termux** and copy-paste the commands below to automatically download, build, and apply the live patch:
+Open **Termux**, copy the single command block below, paste it, and press enter. It will automatically update your environment, install the compilation utilities, download the patch, and apply it all in one go:
 
 ```bash
-# 1. Gain Root Privileges
-su
-
-# 2. Download the installation script directly from this repository
-curl -sL -o /data/local/tmp/fix_display.sh "[https://raw.githubusercontent.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports/main/fix.sh](https://raw.githubusercontent.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports/main/fix.sh)"
-
-# 3. Execute the script
-sh /data/local/tmp/fix_display.sh
+pkg update -y && pkg upgrade -y && pkg install root-repo -y && pkg install clang patchelf binutils file coreutils grep sed findutils -y && su -c 'curl -sL -o /data/local/tmp/fix_display.sh "[https://raw.githubusercontent.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports/main/fix.sh](https://raw.githubusercontent.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports/main/fix.sh)" && sh /data/local/tmp/fix_display.sh'
