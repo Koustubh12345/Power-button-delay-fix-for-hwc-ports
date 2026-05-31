@@ -1,6 +1,6 @@
 # Universal Hardware Composer (HWC) Display Delay Fix 📱⚡
 
-A high-performance, universal script designed to completely eliminate the power button wake delay and touch-to-wake hesitation commonly found on custom Hardware Composer (HWC) vendor ports across Snapdragon devices (such as *sweet*, *alioth*, *munch*, etc.).
+A high-performance, universal script designed to completely eliminate the power button wake delay commonly found on custom Hardware Composer (HWC) vendor ports across Snapdragon devices (such as *sweet*, *SWEET K6A*, *vayu*, etc.).
 
 ---
 
@@ -18,10 +18,6 @@ Before executing the script, your device **must** meet the following requirement
 
 1. **Root Access:** Fully rooted via **KernelSU** or **Magisk**.
 2. **Termux App:** Installed and explicitly granted Superuser privileges.
-3. **Recommended System Settings:**
-   * Turn **OFF** your system's `Pocket mistouch prevention` / `Pocket Mode` in system settings to avoid proximity sensor polling delays.
-   * Change your Screen Unlock fingerprint method from **Touch** to **Firm Touch / Press** (if your device uses a physical side-mounted scanner) to force instant mechanical click registration.
-
 ---
 
 ## 🚀 Installation Instructions
