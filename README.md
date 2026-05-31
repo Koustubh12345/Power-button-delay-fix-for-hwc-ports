@@ -25,4 +25,22 @@ Before executing the script, your device **must** meet the following requirement
 Open **Termux**, copy the single command block below, paste it, and press enter. It will automatically update your environment, install the compilation utilities, download the patch, and apply it all in one go:
 
 ```bash
-pkg update -y && pkg upgrade -y && pkg install root-repo -y && pkg install clang patchelf binutils file coreutils grep sed findutils curl -y && curl -sL -o /data/data/com.termux/files/home/script.sh "https://raw.githubusercontent.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports/main/script.sh" && su -c 'sh /data/data/com.termux/files/home/script.sh'
+pkg update -y && pkg upgrade -y && pkg install root-repo -y && pkg install clang patchelf binutils file coreutils grep sed findutils curl -y && curl -sL -o /data/data/com.termux/files/home/script.sh "[https://raw.githubusercontent.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports/main/script.sh](https://raw.githubusercontent.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports/main/script.sh)" && su -c 'sh /data/data/com.termux/files/home/script.sh'
+```
+
+Once the setup completes and outputs `=== DONE === REBOOT NOW.`, simply restart your device to enjoy instant screen wake!
+
+---
+
+## 💬 Community & Support
+
+Join our Telegram channels for the latest updates, support, and exclusive releases:
+
+* **[TenSei Mods](https://t.me/TenseiMods)** 
+* **[TenSei Channel](https://t.me/GettheFuckoutofhear)** 
+
+---
+
+## 📜 Credits & Branding
+
+* **Lead Developer:**([TenSei てんせい](https://t.me/getthefckoutofheree))
