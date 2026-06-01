@@ -1,6 +1,8 @@
 # Universal (HWC) Power Button Delay Fix
 
-A high-performance, universal script designed to completely eliminate the power button wake delay commonly found on custom Hardware Composer (HWC) vendor ports across Snapdragon devices (such as *sweet*, *sweet_k6a*, *vayu*, etc.).
+A high-performance, universal script designed to completely eliminate the power button wake delay commonly found on custom Hardware Composer (HWC) vendor ports across Snapdragon devices (such as *sweet*, *sweet_k6a*, *vayu*, etc.). 
+
+**Fully compatible with all Android 16 (A16) ports, including OxygenOS (OOS), ColorOS (COS), Realme UI (RUI), HOS2, and HOS3.**
 
 ---
 
@@ -20,15 +22,23 @@ Before executing the script, your device **must** meet the following requirement
 
 ---
 
-## 🚀 Installation Instructions
+## 🚀 Installation Instructions (For End-Users)
 
 Open **Termux**, copy the single command block below, paste it, and press enter. It will automatically update your environment, install the compilation utilities, download the patch, and apply it all in one go:
 
 ```bash
-pkg update -y && pkg upgrade -y && pkg install git root-repo clang patchelf binutils file coreutils grep sed findutils curl -y && rm -rf ~/Power-button-delay-fix-for-hwc-ports && git clone https://github.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports.git ~/Power-button-delay-fix-for-hwc-ports && chmod -R 755 ~/Power-button-delay-fix-for-hwc-ports && cd ~/Power-button-delay-fix-for-hwc-ports && su -c 'sh script.sh'
+pkg update -y && pkg upgrade -y && pkg install git root-repo clang patchelf binutils file coreutils grep sed findutils curl -y && rm -rf ~/Power-button-delay-fix-for-hwc-ports && git clone [https://github.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports.git](https://github.com/Koustubh12345/Power-button-delay-fix-for-hwc-ports.git) ~/Power-button-delay-fix-for-hwc-ports && chmod -R 755 ~/Power-button-delay-fix-for-hwc-ports && cd ~/Power-button-delay-fix-for-hwc-ports && su -c 'sh script.sh'
 ```
 
 Once the setup completes and outputs `=== DONE === REBOOT NOW.`, simply restart your device to enjoy instant screen wake!
+
+---
+
+## 📦 Native ROM Integration (For Developers)
+
+If you are building a Port ROM and want to bake this fix in by default !!.
+
+Head over to the **[Releases](../../releases)** tab (or the Releases section of this repository) and download the Native ROM Edition zip. Simply extract it and merge the `vendor` folder directly into your device tree. The included `.rc` scripts and patched binaries will automatically handle the zero-wait bypass on boot—no root required for your users.
 
 ---
 
@@ -36,11 +46,8 @@ Once the setup completes and outputs `=== DONE === REBOOT NOW.`, simply restart 
 
 Join our Telegram channels for the latest updates:
 
-* **[TenSei Mods](https://t.me/TenseiMods)** 
-* **[TenSei Channel](https://t.me/GettheFuckoutofhear)** 
-
----
+* **[TenSei Mods](https://t.me/TenseiMods)** * **[TenSei Channel](https://t.me/GettheFuckoutofhear)** ---
 
 ## 📜 Credits
 
-* **Developer:**([TenSei てんせい](https://t.me/getthefckoutofheree))
+* **Developer:** [TenSei てんせい](https://t.me/getthefckoutofheree)
